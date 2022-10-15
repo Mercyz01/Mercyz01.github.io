@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+body header {
+    height: 285px;
+    background-color: #0E4F49;
+    color: #D4A97A;
+    padding-top: 80px;
+}
+body header, body nav, body main, body footer {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body main section {
+    width: 800px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: #37816B;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #04231C;
+}
+body nav {
+    background-color: #063124;
+    margin: auto;
+    height: 80px;
+}
+body main{
+    background-color: #98CEB1;
+    padding: 20px;
+}
+
+
+body footer {
+	background-color: #3F7064;
+	height: 100px;
+	padding-top: 40px;
+}
+body footer h6 {
+    font-size: 28px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #3F7064;
+    text-shadow: 0px 0px 7px #B3FFF2;
+}
+main section h2 {
+    padding-bottom: 20px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #D6E9D8;
+}
+body header h1 {
+    width: 800px;
+    height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 72px;
+    color: #B3FFF2;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-shadow: 0px 0px 9px #33C074;
+    margin-top: 0px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-attachment: fixed;
+}
+
+#menu {
+	height: 80px;
+	margin: auto;
+	text-align: center;
+}
+#menu li {
+    padding: 15px;
+    width: 87px;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin-top: 14px;
+    margin-right: 9px;
+    margin-left: 8px;
+    margin-bottom: 14px;
+    box-sizing: content-box;
+    border: medium solid #3F7064;
+    border-radius: 20px;
+    background-color: #C4EBE3;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#menu li a:link, #menu li a:visited {
+    color: #376B6A;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu li a:hover {
+    color: #B3FFF2;
+    text-shadow: 0 0px 17px #3A3A3A;
+    text-decoration: underline;
+}
+
+
+</style>
+.m1 {
+}
+#tabla_1    , #tabla_1 td, tabla_1 th,{
+	border: 3px solid #37618C;
+}
+.imagen_1 {
+	width: 50%;
+	height: 50%;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.imagen_2 {
+	display: block;
+	border-radius: 50%;
+	border: 9px solid #D1D8E1;
+	margin-left: auto;
+	margin-right: auto;
+}
+.imagen_3 {
+	width: 250px;
+	height: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.img_fizq {
+	float: left;
+}
+.img_der {
+	float: right;
+}
+.parrafo_imagenes {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+.imagen_fondo {
+	background-image: url("../MEDIOS/IMGI/hd-wallpaper-ge6c7a3545_1920.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.imagen_4 {
+	width: 30%;
+	height: auto;
+	margin: 10px;
+}
+.filtro_grayscale {
+	filter: grayscale(100%);
+}
+.filtro_brightness {
+	filter: brightness(150%);
+}
+.filtro_contrast {
+	filter: contrast(80%);
+}
+.filtro_invert {
+	filter: invert(180%);
+}
+.filtro_saturate {
+	filter: Saturate(300%);
+}
+.filtro_sepia {
+	filter: Sepia(100%);
+}
+.filtro_opacidad {
+	filter: opacity(20%);
+}
+.filtro_blur {
+	filter: blur(2px);
+}
+.sombra {
+	-webkit-box-shadow: 15px 15px 33px #2D3442;
+	box-shadow: 15px 15px 33px #2D3442;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#Image-Maps-Com-image-maps-2022-09-30-040323 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 30px;
+}
+
+.imagen_5 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}

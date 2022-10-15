@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+body header {
+    height: 132px;
+    background-color: #8A5FB0;
+    color: #D4A97A;
+    padding-top: 62px;
+}
+body header, body nav, body main, body footer {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body main section {
+    width: 878px;
+    height: auto;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: #885696;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #DFF1F0;
+    border-radius: 13px;
+}
+body nav {
+    background-color: #2B0736;
+    margin: auto;
+    height: 67px;
+    width: 1200px;
+}
+body main{
+    background-color: #DDCCE2;
+    padding: 20px;
+}
+
+
+body footer {
+    background-color: #451553;
+    height: 80px;
+    padding-top: 25px;
+}
+main section h2 {
+    padding-bottom: 20px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: #FFFFFF;
+}
+body header h1 {
+    width: 800px;
+    height: 81px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 61px;
+    color: #FAF8FB;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    text-shadow: 0px 0px 6px #FFFFFF;
+    margin-top: -55px;
+    padding-top: 0px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-attachment: fixed;
+}
+
+#menu {
+	height: 80px;
+	margin: auto;
+	text-align: center;
+}
+#menu li {
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: 11px;
+    width: 94px;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin-top: 9px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    box-sizing: content-box;
+    border: 2px solid #B23BD5;
+    border-radius: 20px;
+    background-color: #F6EFF8;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #2B0736;
+}
+#menu li a:link, #menu li a:visited {
+    color: #2B0736;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu li a:hover {
+    color: #9723B9;
+    text-shadow: 0 0px 7px #B891C4;
+    text-decoration: underline;
+}
+		.img_fizq {
+    float: left;
+    margin-right: 24px;
+    margin-top: 0px;
+}
+</style>main section video {
+}
+body footer h6 {
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: large;
+}

@@ -1,0 +1,558 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>♣ Tablas ♣</title>
+<style type="text/css">
+body header {
+    height: 200px;
+    background-color: #A71515;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0px 0px 20px #13009C;
+}
+body header h1 {
+    width: 800px;
+    height: 70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    font-size: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+body header, body nav, body main, body footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body nav {
+    background-color: #D65C5C;
+    height: 70px;
+}
+body main {
+    background-color: #E4C1C1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body footer {
+    background-color: #853434;
+    height: 70px;
+    text-align: center;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body main section {
+    width: 1000px;
+    height: auto;
+    background-color: #F2F1DE;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+main section h2 {
+    padding-bottom: 12px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    color: #803C3C;
+}
+body footer h6 {
+    font-size: large;
+    padding-top: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+}
+section p a:link {
+    color: #64A2BD;
+    font-weight: bolder;
+}
+section p a:visited {
+    color: #C088C7;
+    font-weight: lighter;
+}
+section p a:hover {
+    color: #10F9E4;
+}
+#T1  , #T1 td, #T1 th{
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#T2 th {
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    height: 33px;
+    border-color: #402363;
+    color: #FFFAFA;
+    border-width: medium;
+    background-color: #2D3478;
+}
+#T2 td {
+    background-color: #F8ECEC;
+	padding: 3px;
+    text-align: center;
+}
+#T2   , #T2 td, #T2 th{
+    border: 2 px solid #4F1011;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#T3 tbody tr:nth-child(even) {
+    background-color: #DDB7B8;
+}
+#T3 thead tr {
+    background-color: #A8595B;
+    height: 26px;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#T4 th {
+}
+#T3 tbody tr:nth-child(odd) {
+    background-color: #F2DADB;
+}
+#T4 td:nth-child(even)   {
+    background-color: #A67172;
+    color: #FFFFFF;
+    width: 230px;
+}
+#T4 th {
+    width: 0px;
+    height: 0px;
+    background-color: #525252;
+    color: #FFFFFF;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#T4 td:nth-child(odd) {
+    background-color: #857DC9;
+    color: #FFF7F7;
+    width: 0px;
+}
+#T4 td, #T4 th {
+    border: thin dotted #000000;
+    border-spacing: 0px 0px;
+    border-collapse: collapse;
+}
+#T5 {
+    width: 100%;
+    background-color: #823030;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    border-width: medium;
+    border-radius: 5;
+    border-style: groove;
+    border-collapse: collapse;
+}
+#T5 th, #T5 td {
+    height: 45px;
+    color: #FFFFFF;
+}
+#T5 tbody tr:hover {
+    background-color: #561314;
+}
+#T6 {
+    width: 1200px;
+    color: #FFFEFE;
+    background-color: #FF0004;
+    border-width: thin;
+    border-collapse: collapse;
+    border-color: #281756;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#T6 tbody tr:hover {
+    color: #000000;
+    background-color: #E8AFB0;
+}
+#T6 th {
+    color: #D7F2F5;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+#DivT6 {
+    overflow-x: auto;
+}
+	#menu {
+	height: 80px;
+	margin: auto;
+	text-align: center;
+}
+#menu li {
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-left: 8px;
+    padding-bottom: 11px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+	margin-top: 15px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    background-color: #F6EFF8;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #2B0736;
+}
+#menu li a:link, #menu li a:visited {
+    color: #A7090C;
+    font-weight: bold;
+    text-decoration: none;
+}
+#menu li a:hover {
+    color: #5B1415;
+    text-shadow: 0 0px 7px #FFE733;
+  }
+
+</style>
+</head>
+
+<body background="../MEDIOS/IMGI/seamless.jpg">
+<header>
+  <h1>► Tablas en HTML ◄</h1>
+</header>
+<nav>
+	<ul id="menu">
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="Formatos.html">Formatos</a></li>
+    <li><a href="Listas.html">Listas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a></li>
+    <li><a href="Imágenes.html">Imágenes</a></li>
+	<li><a href="Video.html">Videos</a></li>
+	<li><a href="Audio.html">Audios</a></li>
+    <li><a href="Formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+<section>
+    <h2>Tabla desde código</h2>
+    <p> Dolores autem eligendi hic enim praesentium optiitatibus iusto quas quae vero beatae temporibus numquam id odit natus facere, in quia molestiae, labore namadipisci harum, laboriosam unde distinctio molestias voluptatum quasi soluta! </p>
+	<table border="2" bordercolor="#440F10" bgcolor="#EACBCC" id="T1">
+	<thead>
+		<tr>
+			<th> Nombre	</th>
+			<th> Edad	</th>
+			<th> País	</th>
+			<th> Curso	</th>
+		</tr>
+	</thead>
+		<tbody>
+			<tr>
+				<td>Gregorio González</td>
+				<td>24 </td>
+				<td>México </td>
+				<td>Alemán</td>
+			</tr>
+			<tr>
+				<td>Diego Chacón</td>
+				<td>27</td>
+				<td>Costa Rica</td>
+				<td>Programación</td>
+			</tr>
+			<tr>
+				<td>Johan</td>
+				<td>22</td>
+				<td>Colombia</td>
+				<td>Inglés</td>
+			</tr>
+			<tr>
+				<td>Mercedes Zepeda</td>
+				<td>23</td>
+				<td>México</td>
+				<td>Pintura</td>
+			</tr>
+		</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="3"><b>Total inscritos</b></td>
+			<td>4</td>
+		</tr>
+		
+		</tfoot>
+		
+	</table>
+</section>
+<section>
+  <h2>Tabla con estilo CSS y uso Rowspan</h2>
+<p>Placeat reiciendis aratione aliquid hic iusto. Suscipit facilis, fugit reiciendis, eum non sit! Dicta voluptatum aut esse, quidem sint aspernatur voluptate consequuntur fugit, excepturi officiis fugiat doloribus magnam eos beatae laudantium minima dolore quasi prasi esentium nemo quo incidunt rerum delectus.</p>
+	<br>
+    <table border="2" bordercolor="#440F10" bgcolor="#EACBCC" id="T2">
+      <thead>
+        <tr>
+          <th> Nombre </th>
+          <th> Edad </th>
+          <th> País </th>
+          <th> Curso </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gregorio González</td>
+          <td>24 </td>
+          <td>México </td>
+          <td>Alemán</td>
+        </tr>
+        <tr>
+          <td>Diego Chacón</td>
+          <td>27</td>
+          <td>Costa Rica</td>
+          <td>Programación</td>
+        </tr>
+        <tr>
+          <td>Johan</td>
+          <td>22</td>
+          <td>Colombia</td>
+          <td>Inglés</td>
+        </tr>
+        <tr>
+          <td>Mercedes Zepeda</td>
+          <td>23</td>
+          <td>México</td>
+          <td>Pintura</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td style="background-color: #C7D1ED"><b>Total inscritos</b></td>
+          <td colspan="3">4</td>
+        </tr>
+      </tfoot>
+    </table>
+
+  </section>
+<section>
+    <h2>Tabla de cebra horizontal</h2>
+<p> Iusto modi nobis cumque. Placeat reiciendis velit praesentium cumque est nesciunt nobis, nemo officiis numquam, minus quibustium nemo quo incidunt rerum delectus. Molestiae magnam, obcaecati nulla quasi blanditiis.</p>
+	<br>
+
+<table width="100%" border="2" cellspacing="1" id="T3">
+	<thead>
+		 <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Correo electrónico</th>
+      <th scope="col">Teléfono</th>
+      <th scope="col">Edad</th>
+      <th scope="col">Ciudad</th>
+    </tr>
+	</thead>
+  <tbody>
+    <tr>
+      <td>&nbsp;Manuela Salazar</td>
+      <td>&nbsp;manu.sal@hotmail.com</td>
+      <td>&nbsp;2381129101</td>
+      <td>&nbsp;62</td>
+      <td>&nbsp;Puebla</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Erica Andrade</td>
+      <td>&nbsp;Erica1999And@gmail.com&nbsp;</td>
+      <td>&nbsp;2375581615</td>
+      <td>&nbsp;23</td>
+      <td>&nbsp;Veracruz</td>
+    </tr>
+    <tr>
+      <td>&nbsp;Mónica Hernández</td>
+      <td>&nbsp;monividente@hotmail.com</td>
+      <td>&nbsp;7581223570</td>
+      <td>&nbsp;21</td>
+      <td>&nbsp;Monterrey</td>
+    </tr>
+    <tr>
+      <td>&nbsp; Samuel García</td>
+      <td>&nbsp;Samusgame@gmail.com&nbsp;</td>
+      <td>&nbsp;6981524881</td>
+      <td>&nbsp;25</td>
+      <td>&nbsp;Chihuahua</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+  <section>
+    <h2>Tabla cebra vertical</h2>
+    <p> Suscipit facilis, fugit reiciendis, eumdit laboriosam illum laudantium omnis obcaecati nostrum, dolores, sint voluptas in quas magni molestiae totam fugiat quia pariatur blanditiis. Deserunt, corrupti, earum.</p>
+	  <br>
+	 
+    <table width="100%" border="2" cellspacing="1" id="T4">
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Correo electrónico</th>
+          <th scope="col">Teléfono</th>
+          <th scope="col">Edad</th>
+          <th scope="col">Ciudad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Manuela Salazar</td>
+          <td>&nbsp;manu.sal@hotmail.com</td>
+          <td>&nbsp;2381129101</td>
+          <td>&nbsp;62</td>
+          <td>&nbsp;Puebla</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Erica Andrade</td>
+          <td>&nbsp;Erica1999And@gmail.com&nbsp;</td>
+          <td>&nbsp;2375581615</td>
+          <td>&nbsp;23</td>
+          <td>&nbsp;Veracruz</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mónica Hernández</td>
+          <td>&nbsp;monividente@hotmail.com</td>
+          <td>&nbsp;7581223570</td>
+          <td>&nbsp;21</td>
+          <td>&nbsp;Monterrey</td>
+        </tr>
+        <tr>
+          <td>&nbsp; Samuel García</td>
+          <td>&nbsp;Samusgame@gmail.com&nbsp;</td>
+          <td>&nbsp;6981524881</td>
+          <td>&nbsp;25</td>
+          <td>&nbsp;Chihuahua</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+<section>
+<h2>Tabla flotante (Hover)</h2>
+    <table width="100%" border="2" cellspacing="1" id="T5">
+      <thead>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Correo electrónico</th>
+          <th scope="col">Teléfono</th>
+          <th scope="col">Edad</th>
+          <th scope="col">Ciudad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Manuela Salazar</td>
+          <td>&nbsp;manu.sal@hotmail.com</td>
+          <td>&nbsp;2381129101</td>
+          <td>&nbsp;62</td>
+          <td>&nbsp;Puebla</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Erica Andrade</td>
+          <td>&nbsp;Erica1999And@gmail.com&nbsp;</td>
+          <td>&nbsp;2375581615</td>
+          <td>&nbsp;23</td>
+          <td>&nbsp;Veracruz</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mónica Hernández</td>
+          <td>&nbsp;monividente@hotmail.com</td>
+          <td>&nbsp;7581223570</td>
+          <td>&nbsp;21</td>
+          <td>&nbsp;Monterrey</td>
+        </tr>
+        <tr>
+          <td>&nbsp; Samuel García</td>
+          <td>&nbsp;Samusgame@gmail.com&nbsp;</td>
+          <td>&nbsp;6981524881</td>
+          <td>&nbsp;25</td>
+          <td>&nbsp;Chihuahua</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+<section id="sec1">
+  <h2>Tabla receptiva</h2>
+  <div id="DivT6">
+	 <thead>
+	  </thead>
+    <table width="100%" border="2" cellspacing="1" id="T6">
+      <tbody>
+        <tr>
+          <th scope="col"> Nombre<br>
+            <br></th>
+<th scope="col">&nbsp;Tarea 1</th>
+          <th scope="col">Tarea 2&nbsp;</th>
+          <th scope="col">Tarea 3&nbsp;</th>
+          <th scope="col">Tarea 4&nbsp;</th>
+          <th scope="col">Proyecto 1&nbsp;</th>
+          <th scope="col">Tarea 5</th>
+          <th scope="col">&nbsp;Tarea 6</th>
+          <th scope="col">Tarea 7&nbsp;</th>
+          <th scope="col">&nbsp;Proyecto 2&nbsp;</th>
+        </tr>
+        <tr>
+          <td>&nbsp;Marco</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;8</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;10</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Cristian</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;8</td>
+          <td>9</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;9</td>
+          <td>9&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Julia</td>
+          <td>&nbsp;8</td>
+          <td>&nbsp;7</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;10</td>
+          <td>&nbsp;7</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;10</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Marta</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;10</td>
+          <td>10</td>
+          <td>&nbsp;8</td>
+          <td>10</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;9</td>
+          <td>&nbsp;8</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Mercedes Zepeda</h6>
+</footer>
+</body>
+</html>

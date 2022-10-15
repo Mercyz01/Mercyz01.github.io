@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>♥ Formularios ♥</title>
+<link href="../CSS/Formuarios.css" rel="stylesheet" type="text/css">
+</head>
+<body background="../MEDIOS/IMGI/seamless.jpg">
+<header><h1>Formularios en HTML</h1>
+</header>
+<nav>
+	<ul id="menu">
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="Formatos.html">Formatos</a></li>
+    <li><a href="Listas.html">Listas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a></li>
+    <li><a href="Tablas.html">Tablas</a></li>
+    <li><a href="Imágenes.html">Imágenes</a></li>
+	<li><a href="Video.html">Videos</a></li>
+	<li><a href="Audio.html">Audios</a></li>
+  </ul>
+	
+</nav>
+<main>
+  <section>
+<h2>Formulario</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	  <br>
+<form id="form1" name="form1" method="get">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br>
+      <label for="Apellido">Apellido:</label>
+      <input type="text" name="Apellido" id="Apellido">
+		<br>
+      <input type="submit" name="Botón1" id="Botón1" value="Enviar">
+</form>
+    <br>
+  </section>
+  <section>
+    <h2>Formulario usando Select, checkbox y radiobutton</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+   <br>
+<form id="form2" name="form2" method="post">
+      <label for="select"><Strong>¿De qué país nos visitas?:</Strong></label>
+	<br>
+      <select name="select" id="país">
+        <option value="MX">México</option>
+        <option value="CR">Costa Rica</option>
+        <option value="CH">Chile</option>
+        <option value="GT">Gueatemala</option>
+        <option value="Co">Colombia</option>
+      </select>
+      <br><br>
+<p> <strong>Genero:</strong>
+		<br>
+	    <label>
+			<input type="radio" name="Genero" value="hombre" id="Genero_0">
+	    Hombre</label>
+	  <br>
+	  <label>
+	    <input type="radio" name="Genero" value="mujer" id="Genero_1">
+	    Mujer</label>
+	  <br><br>
+	  </p>
+<label><strong>¿Cuál será tu residencia durante tu estancia?</strong></label>
+<table width="200">
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Residencia_Temporal" value="Hotel" id="Residencia_Temporal_0">
+      Hotel</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Residencia_Temporal" value="Airbnb" id="Residencia_Temporal_1">
+      Airbnb</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Residencia_Temporal" value="Particular" id="Residencia_Temporal_2">
+      Domicilio de amigos/familia</label></td>
+  </tr>
+</table>
+<br>
+      <input type="submit" name="Botón2" id="Botón2" value="Enviar">
+    </form>
+    <br>   
+  </section>
+  <section>
+    <h2>Formulario de contacto</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..</p>
+	  <br>
+    <form action="../../Procesamiento.html" id="form3" name="form3" method="post">
+      <label for="Nombre">Nombre:</label>
+      <input name="Nombre" type="text" required="required" id="Nombre" form="form3">
+		<br>
+	<label for="email">Email:</label>
+    <input name="email" type="email" required="required" id="email" form="form3">
+		<br>
+    <label for="Mensaje">Mensaje:<br>
+    </label>
+    <textarea name="Mensaje" rows="6" maxlength="150" required="required" id="Mensaje" form="form3">Escribe tu mensaje...</textarea>
+	<br>
+<input name="submit" type="submit" id="Botón3" formaction="Procesamiento.html" value="Enviar">
+	  </form>
+  </section>
+	
+	<section>
+    <h2>Formulario Registro de usuario</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<br>
+    <form action="../../Procesamiento.html" method="post" name="form4" id="form4">     
+      <label><strong>Nombre Completo</strong></label>
+      <input name="CasillaNombre" type="text" id="CasillaNombre">
+		<br>
+      <label for="tel"><strong>Correo electrónico</strong></label>
+      <input name="email" type="email" required="email" id="email">
+	<br>
+      <br>
+      <label><strong>Género</strong></label>
+      <label>
+		<br>
+        <input type="checkbox" name="¿Cómo fue tu experiencia con nuestros servicios?" value="deficiente" id="iquestCoacutemofuetuexperienciaconnuestrosservicios_0">
+        Femenino</label>
+      <br>
+      <label>
+        <input type="checkbox" name="¿Cómo fue tu experiencia con nuestros servicios?" value="regular" id="iquestCoacutemofuetuexperienciaconnuestrosservicios_1">
+        Masculino</label>
+      <br>
+      <label>
+        <input type="checkbox" name="¿Cómo fue tu experiencia con nuestros servicios?" value="agradable" id="iquestCoacutemofuetuexperienciaconnuestrosservicios_2">
+   		<i>Prefiero no decirlo</i></label>
+      <br>
+      <br>
+      <label><strong>Fecha de nacimiento</strong></label>
+      <br>
+      <input name="Fecha_Hora" type="datetime-local" id="Fecha_Hora">
+	  <br>
+      <br>
+		   <label for="select"><Strong>Ocupación</Strong></label>
+	<br>
+      <select name="select">
+        <option value="MX">Estudiante</option>
+        <option value="CR">Empleado</option>
+        <option value="CH">Empleado de medio tiempo</option>
+        <option value="GT">Desempleado</option>
+        <option value="Co">Jubilado</option>
+      </select>
+		<br><br>
+		  <input name="submit" type="submit" id="Botón4" formaction="Procesamiento.html" value="Enviar">
+    </form>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Mercedes Zepeda</h6>
+</footer>
+</body>
+</html>
